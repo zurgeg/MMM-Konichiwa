@@ -51,7 +51,7 @@ def on_identify_command(client):
     fv_hu_moments = fd_hu_moments(image)
     fv_haralick   = fd_haralick(image)
     fv_histogram  = fd_histogram(image)
-state = State()
+state = State() # Stores stuff like the camera
 print('[KONICHIWA] State created...')
 
 
